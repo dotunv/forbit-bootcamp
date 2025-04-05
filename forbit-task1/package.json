@@ -1,0 +1,17 @@
+{
+  "name": "forbit-task1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "hardhat run scripts/deploy.js --network calibrationnet",
+    "compile": "hardhat compile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "hardhat": "^2.22.19",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0"
+  }
+}
