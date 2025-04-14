@@ -35,6 +35,9 @@ module.exports = {
             accounts: [PRIVATE_KEY],
         },
     },
+    sourcify: {
+        enabled: true
+    },
     paths: {
         sources: "./contracts",
         tests: "./test",
